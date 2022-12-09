@@ -1,6 +1,6 @@
 body {
-    background-image: url("");
-    color: ivory;
+    background-image: url(background.jpg);
+    background-attachment: fixed;
 }
 h1 {
     font-size: 50px;
@@ -8,9 +8,15 @@ h1 {
     text-align: center;
 }
 
+img {
+    border-radius: 2rem;
+    border: #efaf0a;
+    transition: 500ms;
+
+}
 h2 {
     font-size: 30px;
     font-weight: 700;
-    text-align: center;
+    /*text-align:;*/
 
 }
