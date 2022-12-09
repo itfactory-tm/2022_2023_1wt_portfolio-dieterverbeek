@@ -1,19 +1,25 @@
 body {
-    background-image: url(background.jpg);
-    background-attachment: fixed;
+    background-color: rgba(190, 147, 38, 0.98);
+    color: ivory;
 }
+
 h1 {
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2em;
+    font-size: 60px;
+
 }
 
 img {
     border-radius: 2rem;
     border: #efaf0a;
     transition: 500ms;
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 
-}
+
 h2 {
     font-size: 30px;
     font-weight: 700;
