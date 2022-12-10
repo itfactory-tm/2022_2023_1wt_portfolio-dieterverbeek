@@ -1,14 +1,12 @@
 body {
-    background-color: rgba(190, 147, 38, 0.98);
+    background-color: rgba(160, 150, 140, 0.98);
     color: ivory;
 }
 
 h1 {
-    margin-left: auto;
+    margin-left: 42%;
     margin-right: auto;
-    width: 2em;
-    font-size: 60px;
-
+    font-size: 70px;
 }
 
 img {
@@ -16,13 +14,12 @@ img {
     border: #efaf0a;
     transition: 500ms;
     display: block;
-    margin-left: auto;
-    margin-right: auto }
+
+}
 
 
 h2 {
     font-size: 30px;
     font-weight: 700;
     /*text-align:;*/
-
 }
