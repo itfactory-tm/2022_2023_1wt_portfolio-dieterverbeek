@@ -1,28 +1,28 @@
 body {
-    background-color: gray;
+    background-color: #527852;
     color: rgba(4, 2, 2, 0.87);
 }
 
 ul {
     text-align: center;
     font-size: 32px;
-    background-color: darksalmon;
+    background-color: rgba(160, 136, 71, 0.98);
     margin:20px;
     padding:0;
     list-style:none;
     width:auto;
     text-decoration:none;
     padding:5px 0;
-    color: #893009;
+    color: #193819;
 }
 
 a:link {
     text-decoration: none;
-    color: #893009;
+    color: #193819;
 }
 a:visited {
     text-decoration: none;
-    color: #893009;
+    color: #193819;
 }
 
 h1 {
@@ -46,14 +46,32 @@ img {
     border: #efaf0a;
     transition: 500ms;
     display: block;
-
 }
 
 
 
-.m1, .m2 {
-    background-color: darksalmon;
-    border: 1px solid #000;
+.m1 {
+    background-color: rgba(160, 136, 71, 0.98);
     padding: 1rem;
     margin: 1rem;
 }
+
+
+
+TABLE {
+    border-collapse: collapse;
+    border: 3px solid rgba(160, 136, 71, 0.98);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #CCCCCC;
+}
+TD {
+    border: 3px solid rgba(160, 136, 71, 0.98);
+    text-align: center;
+    width: 50px;
+    font-size: 40px;}
+tr {
+    font-size: 35px;}
+caption {
+    font-size: 30px;}
+
