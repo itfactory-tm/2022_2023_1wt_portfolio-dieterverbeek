@@ -1,28 +1,43 @@
 body {
     background-color: #638e63;
     color: rgba(4, 2, 2, 0.87);
+    line-height: 1.5;
+    padding: 1rem;
 }
 
-ul {
-    text-align: center;
-    font-size: 30px;
-    background-color: rgba(200, 160, 54, 0.98);
-    margin-right: 200px;
-    margin-left: 200px;
-    padding:0;
-    list-style:none;
-    width:auto;
-    text-decoration:none;
-    padding:5px 0;
-    color: #193819;
+/*ul {*/
+/*    text-align: center;*/
+/*    font-size: 30px;*/
+/*    font-style: italic;*/
+/*    font-weight: 100;*/
+/*    background-color: rgba(200, 160, 54, 0.98);*/
+/*    margin-right: 300px;*/
+/*    margin-left: 300px;*/
+/*    list-style:none;*/
+/*    width:auto;*/
+/*    text-decoration:none;*/
+/*    padding:5px 0;*/
+/*    color: #193819;*/
+
+/*}*/
+/*#menu li {*/
+/*    display: inline;*/
+/*    text-align: center;*/
+/*}*/
+
+#menu {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
 }
+
 
 a:link {
     text-decoration: none;
     font-size: 35px;
     color: rgb(176, 56, 34);
-
-
 }
 a:visited {
     text-decoration: none;
@@ -32,35 +47,42 @@ a:visited {
 
 h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 100;
+    text-shadow: 2px 2px 5px #c59f37;
 }
 
 h2 {
     text-align: center;
     font-size: 40px;
-
+    font-style: italic;
+    font-weight: 600;
 }
 
-/*p {*/
-/*    text-align: center;*/
-/*    font-size: 22px;*/
+p {
+    text-align: center;
+    font-size: 27px;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: 500;
 }
-
-img {
-    border-radius: 2rem;
-    border: rgba(200, 160, 54, 0.98);
-    transition: 500ms;
-    display: block;
-}
-
-
 
 .m1 {
     background-color: rgba(200, 160, 54, 0.98);
     padding: 1rem;
     margin: 1rem;
+    border-radius: 6rem;
+    transition: 200ms;
+    display: block;
 }
 
+.m2 {
+    border-radius: 6rem;
+    transition: 200ms;
+    display: block;
+
+}
 
 
 TABLE {
@@ -80,3 +102,6 @@ tr {
 caption {
     font-size: 32px;}
 
+#lijst li {
+
+}
