@@ -1,13 +1,14 @@
 body {
-    background-color: #527852;
+    background-color: #638e63;
     color: rgba(4, 2, 2, 0.87);
 }
 
 ul {
     text-align: center;
-    font-size: 32px;
-    background-color: rgba(160, 136, 71, 0.98);
-    margin:20px;
+    font-size: 30px;
+    background-color: rgba(200, 160, 54, 0.98);
+    margin-right: 200px;
+    margin-left: 200px;
     padding:0;
     list-style:none;
     width:auto;
@@ -18,11 +19,15 @@ ul {
 
 a:link {
     text-decoration: none;
-    color: #193819;
+    font-size: 35px;
+    color: rgb(176, 56, 34);
+
+
 }
 a:visited {
     text-decoration: none;
-    color: #193819;
+    font-size: 35px;
+    color: rgb(176, 56, 34);
 }
 
 h1 {
@@ -32,18 +37,18 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 
 }
 
-p {
-    text-align: center;
-    font-size: 30px;
+/*p {*/
+/*    text-align: center;*/
+/*    font-size: 22px;*/
 }
 
 img {
     border-radius: 2rem;
-    border: #efaf0a;
+    border: rgba(200, 160, 54, 0.98);
     transition: 500ms;
     display: block;
 }
@@ -51,7 +56,7 @@ img {
 
 
 .m1 {
-    background-color: rgba(160, 136, 71, 0.98);
+    background-color: rgba(200, 160, 54, 0.98);
     padding: 1rem;
     margin: 1rem;
 }
@@ -60,18 +65,18 @@ img {
 
 TABLE {
     border-collapse: collapse;
-    border: 3px solid rgba(160, 136, 71, 0.98);
+    border: 3px solid rgba(200, 160, 54, 0.98);
     margin-left: auto;
     margin-right: auto;
     background-color: #CCCCCC;
 }
 TD {
-    border: 3px solid rgba(160, 136, 71, 0.98);
+    border: 3px solid rgba(200, 160, 54, 0.98);
     text-align: center;
     width: 50px;
-    font-size: 40px;}
+    font-size: 30px;}
 tr {
     font-size: 35px;}
 caption {
-    font-size: 30px;}
+    font-size: 32px;}
 
