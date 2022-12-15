@@ -5,44 +5,50 @@ body {
     padding: 1rem;
 }
 
-/*ul {*/
-/*    text-align: center;*/
-/*    font-size: 30px;*/
-/*    font-style: italic;*/
-/*    font-weight: 100;*/
-/*    background-color: rgba(200, 160, 54, 0.98);*/
-/*    margin-right: 300px;*/
-/*    margin-left: 300px;*/
-/*    list-style:none;*/
-/*    width:auto;*/
-/*    text-decoration:none;*/
-/*    padding:5px 0;*/
-/*    color: #193819;*/
-
-/*}*/
-/*#menu li {*/
-/*    display: inline;*/
-/*    text-align: center;*/
-/*}*/
 
 #menu {
+    font-size: 30px;
+    text-align: center;
     position: fixed;
-    left: 0;
-    top: 50%;
-    width: 8em;
-    margin-top: -2.5em;
+    left:4%;
+    top: 30%;
+    width: 6em;
+    background-color: rgb(1, 1, 1);
+    overflow: hidden;
+    margin: 1px;
+    padding: 1rem;
+    border-radius: 3rem;
+    transition: 200ms;
+    display: block;
 }
-
+#menu a:link {
+    text-decoration: none;
+    /*font-size: 28px;*/
+    color: rgb(220, 106, 68);
+}
+#menu a:visited {
+    text-decoration: none;
+    /*font-size: 28px;*/
+    color: rgb(220, 106, 68);
+}
 
 a:link {
     text-decoration: none;
-    font-size: 35px;
-    color: rgb(176, 56, 34);
+    /*font-size: 28px;*/
+    color: rgb(11, 11, 172);
+    text-decoration: underline;
+    font-family:Verdana ;
 }
 a:visited {
     text-decoration: none;
-    font-size: 35px;
-    color: rgb(176, 56, 34);
+    /*font-size: 28px;*/
+    color: rgb(11, 11, 172);
+    text-decoration: underline;
+    font-family:Verdana ;
+}
+
+.trendpics {
+    text-align: center;
 }
 
 h1 {
@@ -51,6 +57,8 @@ h1 {
     font-style: italic;
     font-weight: 100;
     text-shadow: 2px 2px 5px #c59f37;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 h2 {
@@ -58,14 +66,22 @@ h2 {
     font-size: 40px;
     font-style: italic;
     font-weight: 600;
+    margin-bottom: 0;
+    background-color: #c59f37;
+    border-radius: 6rem;
+    transition: 200ms;
+    display: block;
+    width :17%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
     text-align: center;
-    font-size: 27px;
+    font-size: 24px;
     line-height: 1.5;
     font-style: italic;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .m1 {
@@ -76,12 +92,10 @@ p {
     transition: 200ms;
     display: block;
 }
-
 .m2 {
     border-radius: 6rem;
     transition: 200ms;
     display: block;
-
 }
 
 
@@ -100,8 +114,68 @@ TD {
 tr {
     font-size: 35px;}
 caption {
-    font-size: 32px;}
-
-#lijst li {
-
+    font-size: 32px;
 }
+
+
+div.container {
+    text-align: center;
+    font-size: 25px;
+}
+
+ul.lijst {
+    display: inline-block;
+    text-align: left;
+}
+
+
+.error {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    /*transform: translate(-50%);*/
+    text-align: center;
+    color: rgba(4, 2, 2, 0.87);
+}
+.error h1{
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    margin-bottom: 0;
+}
+.error h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 0;
+    background-color: #c59f37;
+    border-radius: 6rem;
+    transition: 200ms;
+    display: block;
+    width :17%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.error a:link {
+    font-size: 25px;
+    color: rgb(33, 33, 218);
+    text-decoration: underline;
+}
+.error a:visited {
+    font-size: 25px;
+    color: rgb(33, 33, 218);
+    text-decoration:underline ;
+}
+.error p {
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+
+
