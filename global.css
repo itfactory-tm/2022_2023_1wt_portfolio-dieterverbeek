@@ -5,8 +5,8 @@ body {
     padding: 1rem;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
 
 #menu {
     font-size: 30px;
@@ -15,7 +15,7 @@ body {
     left:3%;
     top: 30%;
     width: 6em;
-    background-color: rgb(1, 1, 1);
+    background-color: rgba(1, 1, 1, 0.68);
     overflow: hidden;
     margin: 1px;
     padding: 0.6rem;
@@ -25,13 +25,11 @@ body {
 }
 #menu a:link {
     text-decoration: none;
-    /*font-size: 28px;*/
-    color: rgb(220, 106, 68);
+    color: rgb(196, 158, 55);
 }
 #menu a:visited {
     text-decoration: none;
-    /*font-size: 28px;*/
-    color: rgb(220, 106, 68);
+    color: rgb(196, 158, 55);
 }
 
 a:link {
@@ -55,7 +53,7 @@ h1 {
     font-size: 80px;
     font-family: 'Architects Daughter', cursive;
     font-weight: 100;
-    text-shadow: 2px 2px 5px #c59f37;
+    text-shadow: 2px 2px 5px #c49e37;
     margin-bottom: 0;
     margin-top: 0;
 
@@ -82,7 +80,7 @@ p {
     font-size: 24px;
     line-height: 1.5;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 
@@ -96,6 +94,7 @@ p {
     border-radius: 6rem;
     transition: 200ms;
     display: block;
+    text-align: center;
 }
 .m2 {
     border-radius: 6rem;
@@ -103,6 +102,8 @@ p {
     display: block;
     padding: 1rem;
     margin: 1rem;
+    WIDTH: 170px ;
+    HEIGHT:170px;
 }
 
 
@@ -123,11 +124,11 @@ TD {
     border: 3px solid rgba(200, 160, 54, 0.98);
     text-align: center;
     width: 50px;
-    font-size: 30px;}
+    font-size: 27px;}
 tr {
-    font-size: 35px;}
+    font-size: 31px;}
 caption {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 
@@ -154,7 +155,6 @@ ul.lijst {
     width: 100%;
     position: absolute;
     top: 10%;
-    /*transform: translate(-50%);*/
     text-align: center;
     color: rgba(4, 2, 2, 0.87);
 }
@@ -163,6 +163,10 @@ ul.lijst {
     font-weight: 900;
     letter-spacing: 20px;
     margin-bottom: 0;
+    background: url("page-not-found/page-not-found.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    opacity: 1;
 }
 .error h2 {
     text-align: center;
@@ -170,7 +174,7 @@ ul.lijst {
     font-style: italic;
     font-weight: 600;
     margin-bottom: 0;
-    background-color: #c59f37;
+    background-color: #c49e37;
     border-radius: 6rem;
     transition: 200ms;
     display: block;
@@ -214,7 +218,7 @@ ul.lijst {
 }
 @media only screen and (min-width: 500px) {
     p {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 @media only screen and (min-width: 500px) {
@@ -233,7 +237,12 @@ ul.lijst {
         max-width:400px;
     }
 }
-
+@media only screen and (min-width: 500px) {
+    #menu {
+        font-size: 20px;
+        top: 7%;
+    }
+}
 
 @media only screen and (min-width: 800px) {
     h2 {
@@ -262,5 +271,9 @@ ul.lijst {
         max-width:600px;
     }
 }
-
-
+@media only screen and (min-width: 800px) {
+    #menu {
+        font-size: 30px;
+        top: 7%;
+    }
+}
