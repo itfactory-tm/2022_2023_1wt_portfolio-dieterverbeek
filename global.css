@@ -1,12 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 body {
     background-color: #638e63;
     color: rgba(4, 2, 2, 0.87);
     line-height: 1.5;
     padding: 1rem;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
 
 #menu {
     font-size: 30px;
@@ -22,15 +22,19 @@ body {
     border-radius: 4rem;
     transition: 200ms;
     display: block;
+
 }
 #menu a:link {
     text-decoration: none;
     color: rgb(196, 158, 55);
+
 }
 #menu a:visited {
     text-decoration: none;
     color: rgb(196, 158, 55);
+
 }
+
 
 a:link {
     color: rgb(11, 11, 172);
@@ -43,20 +47,19 @@ a:visited {
     font-family: sans-serif ;
 }
 
-.trendpics {
+.trendimg {
     text-align: center;
 }
 
 
 h1 {
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
     font-family: 'Architects Daughter', cursive;
-    font-weight: 100;
+    font-weight: 300;
     text-shadow: 2px 2px 5px #c49e37;
     margin-bottom: 0;
     margin-top: 0;
-
 }
 
 h2 {
@@ -74,6 +77,9 @@ h2 {
     margin-right: auto;
     padding: 0.7rem;
 }
+div:nth-child(1):hover h2 {
+    transform: scale(1.2);
+}
 
 p {
     text-align: center;
@@ -82,10 +88,6 @@ p {
     font-style: italic;
     font-weight: 500;
 }
-
-
-
-
 
 .m1 {
     background-color: rgba(200, 160, 54, 0.98);
@@ -105,13 +107,6 @@ p {
     WIDTH: 170px ;
     HEIGHT:170px;
 }
-
-
-
-
-
-
-
 
 TABLE {
     border-collapse: collapse;
@@ -135,8 +130,6 @@ caption {
 div.container {
     text-align: center;
     font-size: 25px;
-
-
 }
 
 ul.lijst {
@@ -144,10 +137,6 @@ ul.lijst {
     text-align: left;
     list-style-type: square;
 }
-
-
-
-
 
 
 
@@ -159,11 +148,11 @@ ul.lijst {
     color: rgba(4, 2, 2, 0.87);
 }
 .error h1{
-    font-size: 160px;
+    font-size: 250px;
     font-weight: 900;
     letter-spacing: 20px;
     margin-bottom: 0;
-    background: url("page-not-found/page-not-found.png");
+    background-image: url("page-not-found/page-not-found.png");
     background-repeat: no-repeat;
     background-position: center ;
     opacity: 1;
@@ -172,15 +161,14 @@ ul.lijst {
     text-align: center;
     font-size: 35px;
     font-style: italic;
-    font-weight: 600;
+    font-weight: 200;
     margin-bottom: 0;
     background-color: #c49e37;
     border-radius: 6rem;
     transition: 200ms;
     display: block;
-    width :17%;
-    margin-left: auto;
-    margin-right: auto;
+    width :20%;
+
     padding: 0.5rem;
 }
 .error a:link {
@@ -205,30 +193,24 @@ ul.lijst {
 
 
 
-
-
-
-
-
 @media only screen and (min-width: 500px) {
     h2 {
         border-radius: 6rem;
         font-size: 15px;
     }
-}
-@media only screen and (min-width: 500px) {
     p {
         font-size: 17px;
     }
 }
 @media only screen and (min-width: 500px) {
     .error h2 {
-        font-size: 15px;
+        font-size: 20px;
     }
-}
-@media only screen and (min-width: 500px) {
     .error p {
-        font-size: 16px;
+        font-size: 18px;
+    }
+    .error h1 {
+        font-size: 180px;
     }
 }
 @media only screen and (min-width: 500px) {
@@ -244,36 +226,70 @@ ul.lijst {
     }
 }
 
-@media only screen and (min-width: 800px) {
+
+
+
+@media only screen and (min-width: 900px) {
     h2 {
         border-radius: 6rem;
-        font-size: 25px;
+        font-size: 35px;
     }
-}
-@media only screen and (min-width: 800px) {
     p {
         font-size: 25px;
     }
+    h1 {
+        font-size: 100px;
+    }
 }
-@media only screen and (min-width: 800px) {
+
+@media only screen and (min-width: 900px) {
     .error h2 {
-        font-size: 25px;
+        font-size: 30px;
     }
-}
-@media only screen and (min-width: 800px) {
     .error p {
-        font-size: 20px;
+        font-size: 27px;
+    }
+    .error h1 {
+        font-size: 250px;
     }
 }
-@media only screen and (min-width: 800px) {
+
+@media only screen and (min-width: 900px) {
     .m1 {
         width:100%;
         max-width:600px;
     }
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 900px) {
     #menu {
         font-size: 30px;
         top: 7%;
+    }
+}
+
+
+
+
+.m4 {
+    font-size: 15px;
+    margin-bottom: 0;
+    background-color: #c59f37;
+    border-radius: 6rem;
+    transition: 200ms;
+    display: block;
+    width :25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    animation: kleurenindex 2s infinite;;
+}
+
+
+@keyframes kleurenindex {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: #a28218;
     }
 }
