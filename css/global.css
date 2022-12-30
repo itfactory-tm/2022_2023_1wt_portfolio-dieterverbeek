@@ -8,32 +8,59 @@ body {
     padding: 1rem;
 }
 
-#menu {
-    font-size: 30px;
-    text-align: center;
+
+
+nav {
+    padding: 1rem;
     position: fixed;
-    left:3%;
-    top: 30%;
-    width: 6em;
-    background-color: rgba(1, 1, 1, 0.68);
-    overflow: hidden;
-    margin: 1px;
-    padding: 0.6rem;
-    border-radius: 4rem;
-    transition: 200ms;
+    background-color: #c49e37;
+    box-shadow: 0 5px 5px rgba(78, 85, 91, 0.29);
+    left:0;
+    right:0;
+    top:-20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    height: 28px;
+}
+
+nav ul li {
+    flex: 2 2 100%;
+
+}
+
+nav ul li a {
     display: block;
-
-}
-#menu a:link {
+    text-align: center;
+    padding: 1rem;
     text-decoration: none;
-    color: rgb(196, 158, 55);
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.45);
 
 }
-#menu a:visited {
+
+nav ul li a:link {
     text-decoration: none;
-    color: rgb(196, 158, 55);
-
+    font-weight: 600;
+    color: black;
 }
+nav ul li a:visited {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+
 
 
 a:link {
@@ -47,27 +74,29 @@ a:visited {
     font-family: sans-serif ;
 }
 
-.trendimg {
+
+.trend-img {
     text-align: center;
 }
+
 
 
 h1 {
     text-align: center;
-    font-size: 100px;
+    font-size: 120px;
     font-family: 'Architects Daughter', cursive;
     font-weight: 300;
-    text-shadow: 2px 2px 5px #c49e37;
-    margin-bottom: 0;
-    margin-top: 0;
+    text-shadow: 5px 5px 10px #e1ae20;
+    margin-bottom: 15px;
+    margin-top: 100px;
+    top: 10%;
 }
 
 h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Black Han Sans', sans-serif;
-    font-weight: 200;
-    margin-bottom: 0;
+    font-weight: 100;
     background-color: #c59f37;
     border-radius: 6rem;
     transition: 200ms;
@@ -75,6 +104,7 @@ h2 {
     width :17%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
     padding: 0.7rem;
 }
 div:nth-child(1):hover h2 {
@@ -83,30 +113,22 @@ div:nth-child(1):hover h2 {
 
 p {
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.5;
     font-style: italic;
-    font-weight: 500;
+    font-weight: 450;
 }
 
 .m1 {
     background-color: rgba(200, 160, 54, 0.98);
     padding: 1rem;
-    margin: 1rem;
     border-radius: 6rem;
     transition: 200ms;
     display: block;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-.m2 {
-    border-radius: 6rem;
-    transition: 100ms;
-    display: block;
-    padding: 1rem;
-    margin: 1rem;
-    WIDTH: 170px ;
-    HEIGHT:170px;
-}
+
 
 TABLE {
     border-collapse: collapse;
@@ -124,12 +146,16 @@ tr {
     font-size: 31px;}
 caption {
     font-size: 30px;
+    color: #042814;
+    text-align: center;
 }
+
+
 
 
 div.container {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 ul.lijst {
@@ -152,14 +178,14 @@ ul.lijst {
     font-weight: 900;
     letter-spacing: 20px;
     margin-bottom: 0;
-    background-image: url("page-not-found/page-not-found.png");
+    background-image: url("../page-not-found/page-not-found.png");
     background-repeat: no-repeat;
     background-position: center ;
     opacity: 1;
 }
 .error h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
     font-style: italic;
     font-weight: 200;
     margin-bottom: 0;
@@ -168,17 +194,16 @@ ul.lijst {
     transition: 200ms;
     display: block;
     width :20%;
-
     padding: 0.5rem;
 }
 .error a:link {
     font-size: 25px;
-    color: rgb(33, 33, 218);
+    color: rgb(253, 16, 16);
     text-decoration: underline;
 }
 .error a:visited {
     font-size: 25px;
-    color: rgb(33, 33, 218);
+    color: rgb(253, 16, 16);
     text-decoration:underline ;
 }
 .error p {
@@ -194,9 +219,14 @@ ul.lijst {
 
 
 @media only screen and (min-width: 500px) {
+    h1 {
+        font-size: 80px;
+        margin-bottom: 25px;
+    }
     h2 {
         border-radius: 6rem;
-        font-size: 15px;
+        font-size: 18px;
+        width :23%;
     }
     p {
         font-size: 17px;
@@ -204,7 +234,7 @@ ul.lijst {
 }
 @media only screen and (min-width: 500px) {
     .error h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .error p {
         font-size: 18px;
@@ -220,40 +250,44 @@ ul.lijst {
     }
 }
 @media only screen and (min-width: 500px) {
-    #menu {
-        font-size: 20px;
-        top: 7%;
+    nav ul li a {
+        display: block;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
     }
 }
-
 
 
 
 @media only screen and (min-width: 900px) {
+    h1 {
+        font-size: 120px;
+        margin-bottom: 45px;
+    }
     h2 {
         border-radius: 6rem;
-        font-size: 35px;
+        font-size: 32px;
     }
     p {
-        font-size: 25px;
+        font-size: 21px;
     }
-    h1 {
-        font-size: 100px;
-    }
-}
 
+}
 @media only screen and (min-width: 900px) {
     .error h2 {
         font-size: 30px;
     }
     .error p {
-        font-size: 27px;
+        font-size: 23px;
     }
     .error h1 {
         font-size: 250px;
     }
 }
-
 @media only screen and (min-width: 900px) {
     .m1 {
         width:100%;
@@ -261,9 +295,14 @@ ul.lijst {
     }
 }
 @media only screen and (min-width: 900px) {
-    #menu {
-        font-size: 30px;
-        top: 7%;
+    nav ul li a {
+        display: block;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+        font-size: 17px;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
     }
 }
 
@@ -271,17 +310,17 @@ ul.lijst {
 
 
 .m4 {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 0;
     background-color: #c59f37;
     border-radius: 6rem;
     transition: 200ms;
     display: block;
-    width :25%;
+    width :30%;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    animation: kleurenindex 2s infinite;;
+    animation: kleurenindex 1s infinite;;
 }
 
 
@@ -290,6 +329,6 @@ ul.lijst {
         background-color: white;
     }
     100% {
-        background-color: #a28218;
+        background-color: #b0953c;
     }
 }
