@@ -39,7 +39,7 @@ nav ul li a {
     text-align: center;
     padding: 1rem;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
@@ -198,12 +198,12 @@ ul.lijst {
 }
 .error a:link {
     font-size: 25px;
-    color: rgb(253, 16, 16);
+    color: rgb(16, 36, 253);
     text-decoration: underline;
 }
 .error a:visited {
     font-size: 25px;
-    color: rgb(253, 16, 16);
+    color: rgb(16, 48, 253);
     text-decoration:underline ;
 }
 .error p {
@@ -237,7 +237,7 @@ ul.lijst {
         font-size: 22px;
     }
     .error p {
-        font-size: 20px;
+        font-size: 18px;
     }
     .error h1 {
         font-size: 180px;
@@ -255,7 +255,7 @@ ul.lijst {
         text-align: center;
         padding: 1rem;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 18px;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
     }
@@ -300,7 +300,7 @@ ul.lijst {
         text-align: center;
         padding: 1rem;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 18px;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
     }
