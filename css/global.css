@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 body {
-    background-color: #638e63;
+    background-color: #6e9b6e;
     color: rgba(4, 2, 2, 0.87);
     line-height: 1.5;
     padding: 1rem;
@@ -21,7 +21,6 @@ nav {
     cursor: pointer;
     opacity: 0.8;
 }
-
 nav ul {
     display: flex;
     list-style: none;
@@ -31,9 +30,7 @@ nav ul {
 
 nav ul li {
     flex: 2 2 100%;
-
 }
-
 nav ul li a {
     display: block;
     text-align: center;
@@ -43,12 +40,9 @@ nav ul li a {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
-
 nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.45);
-
 }
-
 nav ul li a:link {
     text-decoration: none;
     font-weight: 600;
@@ -116,7 +110,7 @@ p {
     font-size: 22px;
     line-height: 1.5;
     font-style: italic;
-    font-weight: 450;
+    font-weight: 530;
 }
 
 .m1 {
@@ -127,6 +121,37 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.m4 {
+    font-size: 18px;
+    margin-bottom: 0;
+    background-color: #c59f37;
+    border-radius: 6rem;
+    transition: 200ms;
+    display: block;
+    width :23%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    animation: kleurenindex 1s infinite;;
+}
+@keyframes kleurenindex {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: #b0953c;
+    }
+}
+.tekstmain {
+    border: 1px solid rgba(46, 65, 46, 0.75);
+    border-radius: 10px;
+    background-color: rgba(218, 176, 60, 0.93);
+    opacity: 1;
+    padding: 1.5rem;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
 
 
@@ -177,11 +202,11 @@ ul.lijst {
     font-size: 250px;
     font-weight: 900;
     letter-spacing: 20px;
-    margin-bottom: 0;
+    margin-top: 3%;
     background-image: url("../page-not-found/page-not-found.png");
     background-repeat: no-repeat;
     background-position: center ;
-    opacity: 1;
+    opacity: 0.9;
 }
 .error h2 {
     text-align: center;
@@ -255,7 +280,7 @@ ul.lijst {
         text-align: center;
         padding: 1rem;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 16px;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
     }
@@ -306,29 +331,33 @@ ul.lijst {
     }
 }
 
-
-
-
-.m4 {
-    font-size: 18px;
-    margin-bottom: 0;
-    background-color: #c59f37;
-    border-radius: 6rem;
-    transition: 200ms;
-    display: block;
-    width :23%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    animation: kleurenindex 1s infinite;;
-}
-
-
-@keyframes kleurenindex {
-    0% {
-        background-color: white;
+@media print {
+    nav ul li a {
+        display: none;
     }
-    100% {
-        background-color: #b0953c;
+    h1 {
+       font-size: 50px;
     }
+    p {
+        font-size: 18px;
+        font-weight: 430;
+    }
+    .m1 {
+        height: 180px;
+        width: 380px;
+    }
+    footer {
+        visibility: hidden;
+    }
+    TD {
+        font-size: 22px;
+    }
+    tr {
+        font-size: 26px;
+    }
+    caption {
+        font-size: 25px;
+    }
+
+
 }
