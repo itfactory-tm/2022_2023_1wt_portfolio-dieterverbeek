@@ -234,10 +234,10 @@ ul.lijst {
 }
 @media only screen and (min-width: 500px) {
     .error h2 {
-        font-size: 18px;
+        font-size: 22px;
     }
     .error p {
-        font-size: 18px;
+        font-size: 20px;
     }
     .error h1 {
         font-size: 180px;
@@ -255,7 +255,7 @@ ul.lijst {
         text-align: center;
         padding: 1rem;
         text-decoration: none;
-        font-size: 15px;
+        font-size: 25px;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
     }
