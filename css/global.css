@@ -362,6 +362,9 @@ ul.lijst {
     nav ul li a {
         display: none;
     }
+    nav {
+        opacity: 0;
+    }
     h1 {
        font-size: 50px;
     }
