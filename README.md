@@ -11,7 +11,7 @@
 | Name            | Dieter Verbeek                              |
 | email           | r0938875@student.thomasmore.be              |
 | Github Username | dieterverbeek    (Dieter Verbeek)           |
-| Hosting         | https://hair-elise.netlify.app/contact.html |
+| Hosting         | https://hair-elise.netlify.app/index.html |
 
 ## Installatie
 
